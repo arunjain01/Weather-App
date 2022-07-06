@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("weatherani.gif");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    background-color: rgb(67, 116, 160);
+    opacity: 0.8;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+}
+button{
+    border-radius: 17px;
+    height: 34px;
+    width: 34px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-bar{
+    border-radius: 20px;
+    font-family: inherit;
+    width: 70%;
+    height: 30px;
+    border: none;
+}
+
+input.search-bar{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.description{
+    text-transform: capitalize;
+}
